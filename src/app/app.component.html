@@ -1,0 +1,9 @@
+<div class="flex flex-column h-screen">
+  <app-menubar></app-menubar>
+
+  <div class="flex-grow-1 overflow-auto">
+    <router-outlet></router-outlet>
+  </div>
+
+  <app-footer class="footer" [title]="title"></app-footer>
+</div>
